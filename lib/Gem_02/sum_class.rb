@@ -1,11 +1,12 @@
-#module Gem02
-  class SumClass
+module Gem02
+class SumClass
 
-      def self.test
-        puts "zz3"
-      end
-
+  def self.test
+    puts "zz5"
   end
 
+end
 
-#end
+
+
+end
