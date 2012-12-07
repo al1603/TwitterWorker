@@ -1,5 +1,5 @@
 require "test/unit"
-require "lib/Gem_02/sum_class"
+require "Gem_02/sum_class"
 
 class MyTest < Test::Unit::TestCase
 
@@ -18,7 +18,10 @@ class MyTest < Test::Unit::TestCase
 
   # Fake test
   def test_fail
+    instance = Gem02::SumClass::new
+    res = instance.sum(1, 2);
+    assert(res == 3)
     # To change this template use File | Settings | File Templates.
-    fail("Not implemented")
+    #fail("Not implemented")
   end
 end
