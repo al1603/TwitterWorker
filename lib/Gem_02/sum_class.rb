@@ -8,12 +8,16 @@ class SumClass
   def initialize
 
   end
-  class << self
+
 
   def sum(a, b)
     a + b
   end
-    end
+
+  def mul(a, b)
+    a * b
+  end
+
 
 end
 
